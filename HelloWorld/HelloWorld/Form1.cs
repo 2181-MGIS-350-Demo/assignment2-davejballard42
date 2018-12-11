@@ -16,6 +16,7 @@ namespace HelloWorld
         public Form1()
         {
             InitializeComponent();
+            lblMessage.Text = "NULL";
         }
 
         private void btnDisplay_Click(object sender, EventArgs e)

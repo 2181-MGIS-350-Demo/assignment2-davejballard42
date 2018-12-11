@@ -34,18 +34,18 @@
             // 
             // lblMessage
             // 
-            this.lblMessage.AutoSize = true;
-            this.lblMessage.Location = new System.Drawing.Point(253, 58);
+            this.lblMessage.Location = new System.Drawing.Point(47, 27);
             this.lblMessage.Name = "lblMessage";
-            this.lblMessage.Size = new System.Drawing.Size(35, 13);
+            this.lblMessage.Size = new System.Drawing.Size(261, 32);
             this.lblMessage.TabIndex = 0;
             this.lblMessage.Text = "label1";
+            this.lblMessage.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // btnDisplay
             // 
-            this.btnDisplay.Location = new System.Drawing.Point(235, 131);
+            this.btnDisplay.Location = new System.Drawing.Point(50, 75);
             this.btnDisplay.Name = "btnDisplay";
-            this.btnDisplay.Size = new System.Drawing.Size(178, 59);
+            this.btnDisplay.Size = new System.Drawing.Size(258, 39);
             this.btnDisplay.TabIndex = 1;
             this.btnDisplay.Text = "Display";
             this.btnDisplay.UseVisualStyleBackColor = true;
@@ -55,13 +55,12 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(606, 321);
+            this.ClientSize = new System.Drawing.Size(365, 159);
             this.Controls.Add(this.btnDisplay);
             this.Controls.Add(this.lblMessage);
             this.Name = "Form1";
             this.Text = "Hello World";
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
