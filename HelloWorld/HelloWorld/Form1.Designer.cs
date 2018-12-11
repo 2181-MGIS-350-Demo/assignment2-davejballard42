@@ -47,8 +47,9 @@
             this.btnDisplay.Name = "btnDisplay";
             this.btnDisplay.Size = new System.Drawing.Size(178, 59);
             this.btnDisplay.TabIndex = 1;
-            this.btnDisplay.Text = "button1";
+            this.btnDisplay.Text = "Display";
             this.btnDisplay.UseVisualStyleBackColor = true;
+            this.btnDisplay.Click += new System.EventHandler(this.btnDisplay_Click);
             // 
             // Form1
             // 

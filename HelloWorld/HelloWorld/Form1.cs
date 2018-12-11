@@ -17,5 +17,10 @@ namespace HelloWorld
         {
             InitializeComponent();
         }
+
+        private void btnDisplay_Click(object sender, EventArgs e)
+        {
+            lblMessage.Text = "Hello world";
+        }
     }
 }
