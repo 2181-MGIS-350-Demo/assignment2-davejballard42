@@ -22,6 +22,7 @@ namespace HelloWorld
         private void btnDisplay_Click(object sender, EventArgs e)
         {
             // Comments rule
+            // More
             lblMessage.Text = "Hello world";
         }
     }
